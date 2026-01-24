@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Sunshine Sky City Quận 7 - Căn Hộ Hạng Sang Bên Bờ Sông Sài Gòn 2026</title>
+    <meta name="description"
+        content="Sunshine Sky City Quận 7 - Tổ hợp căn hộ hạng sang được quy hoạch bên bờ sông Sài Gòn, tọa lạc tại khu Nam Sài Gòn - Liền kề trung tâm Phú Mỹ Hưng. Giá bán từ 2.5 tỷ, tiến độ xây dựng 2026.">
+    <meta name="keywords"
+        content="Sunshine Sky City, căn hộ quận 7, bất động sản Sài Gòn, căn hộ hạng sang, Phú Mỹ Hưng">
+    <meta name="author" content="Sunshine Sky City">
+    <meta property="og:title" content="Sunshine Sky City Quận 7 - Căn Hộ Hạng Sang">
+    <meta property="og:description" content="Tổ hợp căn hộ hạng sang bên bờ sông Sài Gòn">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200">
+
+    <!-- Google Fonts - Inter & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Photo Sphere Viewer CSS only (scripts load at bottom after Three.js) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏢</text></svg>">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <p style="margin-top: 1rem; color: var(--text-light);">Đang tải...</p>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Sunshine Sky City</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#tong-quan" class="nav-link">Tổng Quan</a></li>
+                <li><a href="#virtual-tour" class="nav-link">Tham Quan Ảo</a></li>
+                <li><a href="#vitri" class="nav-link">Vị Trí</a></li>
+                <li><a href="#tienich" class="nav-link">Tiện Ích</a></li>
+                <li><a href="#tongthe" class="nav-link">Tổng Thể</a></li>
+                <li><a href="#matbang" class="nav-link">Mặt Bằng</a></li>
+                <li><a href="#thietke" class="nav-link">Thiết Kế</a></li>
+                <li><a href="#giaban" class="nav-link">Giá Bán</a></li>
+                <li><a href="#lien-he" class="nav-link cta-nav">Liên Hệ</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Sunshine Sky City Quận 7</h1>
+            <p>Tổ hợp căn hộ hạng sang bên bờ sông Sài Gòn - Nơi hội tụ đẳng cấp sống</p>
+            <a href="#lien-he" class="cta-button">Đăng Ký Nhận Tư Vấn Ngay</a>
+        </div>
+    </section>
+
+    <!-- Tổng Quan Section -->
+    <section class="section" id="tong-quan">
+        <h2 class="section-title">Tổng Quan Dự Án</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Khám phá không gian sống đẳng cấp tại trung tâm Nam Sài Gòn</p>
+        <div class="card-grid">
+            <div class="card fade-in">
+                <div class="card-icon">📍</div>
+                <h3>Vị Trí Đắc Địa</h3>
+                <p>Tọa lạc tại khu Nam Sài Gòn, liền kề trung tâm Phú Mỹ Hưng, gần sông Sài Gòn với view đẹp tuyệt vời
+                    và không gian sống trong lành.</p>
+            </div>
+            <div class="card fade-in">
+                <div class="card-icon">🏗️</div>
+                <h3>Quy Mô Lớn</h3>
+                <p>Dự án được quy hoạch với quy mô lớn, bao gồm nhiều tòa nhà cao cấp với đầy đủ tiện ích hiện đại, đáp
+                    ứng mọi nhu cầu sống.</p>
+            </div>
+            <div class="card fade-in">
+                <div class="card-icon">⭐</div>
+                <h3>Chất Lượng Cao Cấp</h3>
+                <p>Thiết kế sang trọng, vật liệu cao cấp, đảm bảo chất lượng sống tốt nhất cho cư dân với tiêu chuẩn 5
+                    sao.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tour Section -->
+    <section class="section virtual-tour-section" id="virtual-tour">
+        <h2 class="section-title">Tham Quan Ảo 360°</h2>
+        <div class="title-divider"></div>
+        <div class="virtual-tour-container">
+            <div id="virtual-tour-viewer"></div>
+            <div class="virtual-tour-info">
+                <div class="tour-title-card">
+                    <h3 id="tour-current-room">Phòng Khách</h3>
+                    <p id="tour-current-desc">Khám phá không gian sống đẳng cấp</p>
+                </div>
+                <div class="tour-instructions desktop">
+                    <span>🖱️</span>
+                    <span>Kéo để xoay | Scroll để zoom | Click vào điểm nổi bật</span>
+                </div>
+                <div class="tour-instructions mobile">
+                    <span>👆</span>
+                    <span>Chạm và kéo để xoay | Chụm để zoom</span>
+                </div>
+            </div>
+            <div class="virtual-tour-controls">
+                <button class="tour-control-btn active" data-room="living">Phòng Khách</button>
+                <button class="tour-control-btn" data-room="bedroom">Phòng Ngủ</button>
+                <button class="tour-control-btn" data-room="kitchen">Bếp</button>
+                <button class="tour-control-btn" data-room="bathroom">WC</button>
+                <button class="tour-control-btn" data-room="balcony">Ban Công</button>
+            </div>
+            <div class="hotspot-info-panel" id="hotspotInfo">
+                <button class="hotspot-info-close" id="closeHotspotInfo">×</button>
+                <h4 id="hotspotTitle"></h4>
+                <p id="hotspotDesc"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vị Trí Section -->
+    <section class="section features dark" id="vitri">
+        <h2 class="section-title">Vị Trí Chiến Lược</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Kết nối thuận tiện với mọi điểm đến quan trọng</p>
+        <div class="feature-item fade-in">
+            <div class="feature-icon">🚗</div>
+            <div class="feature-content">
+                <h3>Giao Thông Thuận Tiện</h3>
+                <p>Kết nối dễ dàng với các tuyến đường chính, gần cao tốc, thuận tiện di chuyển đến trung tâm thành phố
+                    chỉ trong vài phút. Gần sân bay Tân Sơn Nhất và các khu vực trung tâm.</p>
+            </div>
+        </div>
+        <div class="feature-item fade-in">
+            <div class="feature-icon">🏪</div>
+            <div class="feature-content">
+                <h3>Tiện Ích Xung Quanh</h3>
+                <p>Gần các trung tâm thương mại lớn, trường học quốc tế, bệnh viện hiện đại, và các tiện ích công cộng
+                    khác. Cuộc sống tiện nghi ngay tại cửa nhà.</p>
+            </div>
+        </div>
+        <div class="feature-item fade-in">
+            <div class="feature-icon">🌊</div>
+            <div class="feature-content">
+                <h3>View Sông Đẹp</h3>
+                <p>Hướng nhìn ra sông Sài Gòn, không gian sống trong lành, thoáng đãng. Tận hưởng bình minh và hoàng hôn
+                    tuyệt đẹp mỗi ngày.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tiện Ích Section -->
+    <section class="section" id="tienich">
+        <h2 class="section-title">Tiện Ích Nội Khu</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Trải nghiệm sống đẳng cấp với đầy đủ tiện ích cao cấp</p>
+        <div class="card-grid">
+            <div class="card fade-in">
+                <div class="card-icon">🏊</div>
+                <h3>Hồ Bơi Infinity</h3>
+                <p>Hồ bơi vô cực với view sông tuyệt đẹp, khu vực thư giãn và giải trí cao cấp, phục vụ mọi lứa tuổi.
+                </p>
+            </div>
+            <div class="card fade-in">
+                <div class="card-icon">🏋️</div>
+                <h3>Phòng Gym</h3>
+                <p>Phòng tập gym hiện đại với đầy đủ thiết bị chuyên nghiệp, phục vụ nhu cầu rèn luyện sức khỏe 24/7.
+                </p>
+            </div>
+            <div class="card fade-in">
+                <div class="card-icon">🌳</div>
+                <h3>Công Viên Nội Khu</h3>
+                <p>Không gian xanh rộng lớn, khu vui chơi trẻ em an toàn, đường chạy bộ và yoga ngoài trời.</p>
+            </div>
+            <div class="card fade-in">
+                <div class="card-icon">🛒</div>
+                <h3>Trung Tâm Thương Mại</h3>
+                <p>Khu mua sắm, nhà hàng đa dạng, café view đẹp ngay trong khuôn viên dự án, tiện lợi tối đa.</p>
+            </div>
+            <div class="card fade-in">
+                <div class="card-icon">🅿️</div>
+                <h3>Bãi Đỗ Xe</h3>
+                <p>Hệ thống bãi đỗ xe hiện đại, thông minh, đảm bảo an toàn và tiện lợi cho mọi cư dân.</p>
+            </div>
+            <div class="card fade-in">
+                <div class="card-icon">🔒</div>
+                <h3>An Ninh 24/7</h3>
+                <p>Hệ thống an ninh hiện đại, camera giám sát AI, bảo vệ chuyên nghiệp 24/7, đảm bảo an toàn tuyệt đối.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tổng Thể Section -->
+    <section class="section features dark" id="tongthe">
+        <h2 class="section-title">Tổng Thể Dự Án</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Kiến trúc hiện đại, quy hoạch thông minh</p>
+        <div class="feature-item fade-in">
+            <div class="feature-icon">🏢</div>
+            <div class="feature-content">
+                <h3>Kiến Trúc Hiện Đại</h3>
+                <p>Thiết kế kiến trúc hiện đại, sang trọng, tối ưu không gian sống và tầm nhìn. Mỗi căn hộ đều được chăm
+                    chút tỉ mỉ từng chi tiết.</p>
+            </div>
+        </div>
+        <div class="feature-item fade-in">
+            <div class="feature-icon">🌆</div>
+            <div class="feature-content">
+                <h3>Quy Hoạch Thông Minh</h3>
+                <p>Quy hoạch tổng thể hợp lý, tách biệt khu vực sinh hoạt và tiện ích công cộng. Không gian sống riêng
+                    tư nhưng vẫn gần gũi với cộng đồng.</p>
+            </div>
+        </div>
+        <div class="feature-item fade-in">
+            <div class="feature-icon">🌇</div>
+            <div class="feature-content">
+                <h3>View Panorama</h3>
+                <p>Tầm nhìn rộng, view thành phố và sông nước, không gian sống lý tưởng. Mỗi sáng thức dậy đều là một
+                    trải nghiệm tuyệt vời.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mặt Bằng Section -->
+    <section class="section" id="matbang">
+        <h2 class="section-title">Mặt Bằng Căn Hộ</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Đa dạng lựa chọn, phù hợp mọi nhu cầu</p>
+        <div class="gallery-grid">
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200">
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80" alt="Studio - 30m²"
+                    loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Studio - 30m²</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200">
+                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+                    alt="1 Phòng Ngủ - 50m²" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>1 Phòng Ngủ - 50m²</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=1200">
+                <img src="https://images.unsplash.com/photo-1505843513577-22bb7d21e455?w=800&q=80"
+                    alt="2 Phòng Ngủ - 70m²" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>2 Phòng Ngủ - 70m²</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+                    alt="3 Phòng Ngủ - 100m²" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>3 Phòng Ngủ - 100m²</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Handover Standards Section - New -->
+    <section class="section features" id="tieuchuan"
+        style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);">
+        <h2 class="section-title">Tiêu Chuẩn Bàn Giao</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Căn hộ được bàn giao với nội thất liền tường cao cấp từ các thương hiệu hàng đầu thế
+            giới</p>
+
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+            <div class="feature-item fade-in glass" style="margin-bottom: 0;">
+                <div class="feature-icon">🚪</div>
+                <div class="feature-content">
+                    <h3>Cửa & Khóa Thông Minh</h3>
+                    <p>Cửa chống cháy 3 lớp, khóa từ Hafele/Yale 4 chức năng: Vân tay, Mã số, Thẻ từ, Chìa cơ. Đảm bảo
+                        an ninh tuyệt đối.</p>
+                </div>
+            </div>
+
+            <div class="feature-item fade-in glass" style="margin-bottom: 0;">
+                <div class="feature-icon">🍳</div>
+                <div class="feature-content">
+                    <h3>Bếp Cao Cấp</h3>
+                    <p>Tủ bếp trên dưới gỗ An Cường phủ Acrylic. Mặt đá Vicostone sang trọng. Bếp từ, máy hút mùi
+                        Hafele/Bosch. Chậu rửa, vòi rửa cao cấp.</p>
+                </div>
+            </div>
+
+            <div class="feature-item fade-in glass" style="margin-bottom: 0;">
+                <div class="feature-icon">🚽</div>
+                <div class="feature-content">
+                    <h3>Thiết Bị Vệ Sinh</h3>
+                    <p>Full thiết bị vệ sinh Duravit/Kohler. Bồn cầu thông minh, Lavabo mặt đá, phòng tắm kính cường
+                        lực, sen cây nhiệt độ.</p>
+                </div>
+            </div>
+
+            <div class="feature-item fade-in glass" style="margin-bottom: 0;">
+                <div class="feature-icon">📱</div>
+                <div class="feature-content">
+                    <h3>Smarthome 4.0</h3>
+                    <p>Hệ thống điều khiển đèn, rèm, máy lạnh qua Smartphone. Công tắc cảm ứng Lumi/Schneider. Camera an
+                        ninh trong căn hộ.</p>
+                </div>
+            </div>
+
+            <div class="feature-item fade-in glass" style="margin-bottom: 0;">
+                <div class="feature-icon">❄️</div>
+                <div class="feature-content">
+                    <h3>Điều Hòa Âm Trần</h3>
+                    <p>Hệ thống điều hòa Multi âm trần Daikin/Mitsubishi cho phòng khách và tất cả phòng ngủ. Tiết kiệm
+                        điện, thẩm mỹ cao.</p>
+                </div>
+            </div>
+
+            <div class="feature-item fade-in glass" style="margin-bottom: 0;">
+                <div class="feature-icon">🦶</div>
+                <div class="feature-content">
+                    <h3>Sàn Gỗ & Cửa Sổ</h3>
+                    <p>Sàn gỗ công nghiệp cao cấp 12mm chịu nước. Cửa kính Low-E cách âm cách nhiệt, khung nhôm sơn tĩnh
+                        điện cao cấp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thiết Kế Section -->
+    <section class="section features dark" id="thietke">
+        <h2 class="section-title">Thiết Kế Nội Thất</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Sang trọng, hiện đại, đẳng cấp</p>
+        <div class="gallery-grid">
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=1200">
+                <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&q=80"
+                    alt="Phòng Khách Sang Trọng" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Phòng Khách Sang Trọng</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+                    alt="Phòng Ngủ Tiện Nghi" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Phòng Ngủ Tiện Nghi</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=1200">
+                <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&q=80" alt="Bếp Hiện Đại"
+                    loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Bếp Hiện Đại</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+            <div class="gallery-item fade-in"
+                data-image="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1200">
+                <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80" alt="WC Cao Cấp"
+                    loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>WC Cao Cấp</h3>
+                </div>
+                <div class="gallery-zoom">🔍</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Giá Bán Section -->
+    <section class="section pricing" id="giaban">
+        <h2 class="section-title">Giá Bán & Ưu Đãi</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Giá tốt nhất thị trường với nhiều ưu đãi hấp dẫn</p>
+        <div class="card-grid">
+            <div class="pricing-card fade-in glass">
+                <div
+                    style="background: var(--primary); color: white; padding: 5px 15px; border-radius: 20px; display: inline-block; font-size: 0.8rem; margin-bottom: 1rem;">
+                    Đầu tư</div>
+                <h3>Studio</h3>
+                <div class="price">2.5<span class="price-unit"> tỷ</span></div>
+                <ul class="pricing-features">
+                    <li>✓ Diện tích: 30m²</li>
+                    <li>✓ Full nội thất liền tường</li>
+                    <li>✓ <strong>Tặng:</strong> Máy hút mùi, Bếp từ</li>
+                    <li>✓ Smarthome cơ bản</li>
+                </ul>
+                <a href="#lien-he" class="cta-nav"
+                    style="display: inline-block; margin-top: 1.5rem; width: 100%; text-align: center;">Nhận Báo Giá</a>
+            </div>
+            <div class="pricing-card fade-in glass" style="border: 2px solid var(--primary); transform: scale(1.05);">
+                <div
+                    style="background: var(--gradient-gold); color: white; padding: 5px 15px; border-radius: 20px; display: inline-block; font-size: 0.8rem; margin-bottom: 1rem; font-weight: bold;">
+                    Bán Chạy Nhất</div>
+                <h3>1 Phòng Ngủ</h3>
+                <div class="price">3.5<span class="price-unit"> tỷ</span></div>
+                <ul class="pricing-features">
+                    <li>✓ Diện tích: 50m²</li>
+                    <li>✓ Full nội thất cao cấp</li>
+                    <li>✓ <strong>Tặng:</strong> Hệ thống Smarthome 4.0</li>
+                    <li>✓ Máy lạnh Multi âm trần</li>
+                </ul>
+                <a href="#lien-he" class="cta-nav"
+                    style="display: inline-block; margin-top: 1.5rem; width: 100%; text-align: center; background: var(--secondary);">Đăng
+                    Ký Tham Quan</a>
+            </div>
+            <div class="pricing-card fade-in glass">
+                <div
+                    style="background: var(--primary); color: white; padding: 5px 15px; border-radius: 20px; display: inline-block; font-size: 0.8rem; margin-bottom: 1rem;">
+                    Gia Đình</div>
+                <h3>2 Phòng Ngủ</h3>
+                <div class="price">5<span class="price-unit"> tỷ</span></div>
+                <ul class="pricing-features">
+                    <li>✓ Diện tích: 70m²</li>
+                    <li>✓ View sông trực diện</li>
+                    <li>✓ <strong>Tặng:</strong> Gói nội thất 100Tr</li>
+                    <li>✓ Bồn tắm nằm (áp dụng căn góc)</li>
+                </ul>
+                <a href="#lien-he" class="cta-nav"
+                    style="display: inline-block; margin-top: 1.5rem; width: 100%; text-align: center;">Nhận Bảng
+                    Giá</a>
+            </div>
+            <div class="pricing-card fade-in glass">
+                <div
+                    style="background: var(--dark); color: white; padding: 5px 15px; border-radius: 20px; display: inline-block; font-size: 0.8rem; margin-bottom: 1rem;">
+                    VIP</div>
+                <h3>3 Phòng Ngủ</h3>
+                <div class="price">7<span class="price-unit"> tỷ</span></div>
+                <ul class="pricing-features">
+                    <li>✓ Diện tích: 100m²</li>
+                    <li>✓ Căn góc 2 view Panorama</li>
+                    <li>✓ <strong>Tặng:</strong> Gói nội thất 200Tr</li>
+                    <li>✓ Chỗ đậu xe định danh</li>
+                </ul>
+                <a href="#lien-he" class="cta-nav"
+                    style="display: inline-block; margin-top: 1.5rem; width: 100%; text-align: center;">Tư Vấn VIP</a>
+            </div>
+        </div>
+        <div
+            style="text-align: center; margin-top: 4rem; padding: 2.5rem; background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow-sm); border-top: 4px solid var(--primary);">
+            <h3 style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.75rem;">Ưu Đãi Đặc Biệt 2026</h3>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎁</div>
+                    <h4 style="margin-bottom: 0.5rem;">Chiết Khấu</h4>
+                    <p style="color: var(--text-light);">Lên đến 10% giá trị căn hộ</p>
+                </div>
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💰</div>
+                    <h4 style="margin-bottom: 0.5rem;">Hỗ Trợ Vay</h4>
+                    <p style="color: var(--text-light);">Lãi suất ưu đãi từ ngân hàng</p>
+                </div>
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛋️</div>
+                    <h4 style="margin-bottom: 0.5rem;">Tặng Nội Thất</h4>
+                    <p style="color: var(--text-light);">Nội thất cao cấp trị giá 200 triệu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Liên Hệ Section -->
+    <section class="section" id="lien-he">
+        <h2 class="section-title">Liên Hệ Tư Vấn</h2>
+        <div class="title-divider"></div>
+        <p class="section-subtitle">Để lại thông tin, chúng tôi sẽ liên hệ ngay</p>
+        <div class="contact-form fade-in">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Họ và Tên *</label>
+                    <input type="text" id="name" name="name" required placeholder="Nhập họ và tên của bạn">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Số Điện Thoại *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Nhập số điện thoại">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Nhập email (tùy chọn)">
+                </div>
+                <div class="form-group">
+                    <label for="message">Tin Nhắn</label>
+                    <textarea id="message" name="message" placeholder="Nhập tin nhắn của bạn (tùy chọn)"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Gửi Yêu Cầu Tư Vấn</button>
+            </form>
+        </div>
+        <div
+            style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--light); border-radius: var(--radius);">
+            <h3 style="margin-bottom: 1.5rem; color: var(--dark);">Thông Tin Liên Hệ</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                <div>
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📞</div>
+                    <p style="font-weight: 600; margin-bottom: 0.25rem;">Hotline</p>
+                    <p style="color: var(--text-light);">1900 1234</p>
+                </div>
+                <div>
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📧</div>
+                    <p style="font-weight: 600; margin-bottom: 0.25rem;">Email</p>
+                    <p style="color: var(--text-light);">info@sunshineskycity.com</p>
+                </div>
+                <div>
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📍</div>
+                    <p style="font-weight: 600; margin-bottom: 0.25rem;">Địa chỉ</p>
+                    <p style="color: var(--text-light);">Quận 7, TP. Hồ Chí Minh</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Sunshine Sky City Quận 7</h3>
+            <p style="margin-bottom: 1rem; opacity: 0.8;">Nơi hội tụ đẳng cấp sống</p>
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                <a href="#" class="social-link" aria-label="YouTube">📺</a>
+                <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+            </div>
+            <p style="margin-top: 2.5rem; opacity: 0.6; font-size: 0.9rem;">
+                © 2026 Sunshine Sky City. All rights reserved. | Thiết kế bởi đội ngũ chuyên nghiệp
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">×</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+        <div class="lightbox-content">
+            <img id="lightboxImage" src="" alt="">
+        </div>
+    </div>
+
+    <!-- Photo Sphere Viewer - Three.js & uEvent MUST load first -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uevent@2.2.0/browser.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
