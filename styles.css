@@ -36,7 +36,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     line-height: 1.8;
     color: var(--text);
     overflow-x: hidden;
@@ -55,8 +55,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
     line-height: 1.3;
     color: var(--dark);
 }
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/img/banner.png");
+    background-image: url("https://images.unsplash.com/photo-1504788363733-507549153474?w=1600&q=80&auto=format");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
