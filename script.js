@@ -311,7 +311,7 @@ const roomConfigs = {
         ]
     },
     bathroom: {
-        panorama: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=2048&q=80',
+        panorama: './img/phongtam.jpg',
         title: 'Phòng Tắm Cao Cấp',
         description: 'Không gian thư giãn với thiết bị hiện đại',
         hotspots: [
@@ -519,3 +519,35 @@ if (tourSection) {
     
     tourObserver.observe(tourSection);
 }
+
+// Generic Tabs Handling (Vị trí & Mặt bằng & các tab con)
+document.querySelectorAll('.tabs').forEach(tabs => {
+    // chỉ lấy group tab con trực tiếp, không ăn sang tabs lồng bên trong
+    const buttonsWrapper = tabs.querySelector(':scope > .tab-buttons');
+    const panelsWrapper = tabs.querySelector(':scope > .tab-panels');
+
+    if (!buttonsWrapper || !panelsWrapper) return;
+
+    const buttons = buttonsWrapper.querySelectorAll('.tab-button');
+    const panels = panelsWrapper.querySelectorAll('.tab-panel');
+
+    if (!buttons.length || !panels.length) return;
+
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const targetSelector = btn.dataset.target;
+            if (!targetSelector) return;
+
+            const target = panelsWrapper.querySelector(targetSelector);
+            if (!target) return;
+
+            // deactivate all trong nhóm tabs hiện tại
+            buttons.forEach(b => b.classList.remove('active'));
+            panels.forEach(p => p.classList.remove('active'));
+
+            // activate tab được chọn
+            btn.classList.add('active');
+            target.classList.add('active');
+        });
+    });
+});
