@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary: #cba161;
-    --primary-dark: #9e7b45;
+    --primary: #1f9d55; /* xanh lá chủ đạo Eco */
+    --primary-dark: #16653a;
     --secondary: #1a1a1a;
-    --accent: #e6b870;
+    --accent: #2f855a;
     --dark-bg: #0f1419;
     --dark-card: #1c2128;
     --dark: #000000;
@@ -42,7 +42,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: radial-gradient(circle at top left, #f0f7f3 0%, #f8fafc 40%, #eef3ff 100%);
+    background: #ffffff;
 }
 
 /* Glassmorphism Utility */
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary);
     text-decoration: none;
     letter-spacing: -0.5px;
-    background: var(--gradient-gold);
+    background: var(--primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 4px 12px rgba(203, 161, 97, 0.2);
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("https://images.unsplash.com/photo-1504788363733-507549153474?w=1600&q=80&auto=format");
+    background-image: url("/img/background.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     line-height: 1.1;
     letter-spacing: -2px;
-    background: linear-gradient(to right, #ffffff, #e6b870);
+    background: linear-gradient(to right, #ffffff, #93e27b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -301,7 +301,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     color: var(--dark);
     font-weight: 700;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .section-subtitle {
